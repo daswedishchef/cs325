@@ -7,16 +7,20 @@ def insertsort(mylist,outputfile):
             mylist[itemp+1] = mylist[itemp]
             itemp -= 1
         mylist[itemp+1] = temp
+    #print sorted list to file
     for i in mylist:
         outputfile.write(i)
         outputfile.write(" ")
     outputfile.write("\n")
 
 def main():
+    #init files
     outputfile = open("insert.out","w")
     myfile = open("data.txt","r")
     fileline = myfile.readlines()
+    #read each line
     for line in fileline:
+        #split and sort it
         mylist = line.split()
         insertsort(mylist,outputfile)
     myfile.close()

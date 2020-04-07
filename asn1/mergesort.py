@@ -27,13 +27,17 @@ def mergesort(mylist):
 
 
 def main():
+    #init files
     outputfile = open("merge.out","w")
     myfile = open("data.txt","r")
     fileline = myfile.readlines()
+    #read each line
     for line in fileline:
         mylist = line.split()
         mylist.pop(0)
+        #sort it
         mylist = mergesort(mylist)
+        #print it
         for i in mylist:
             outputfile.write(i)
             outputfile.write(" ")
