@@ -1,0 +1,11 @@
+Test case: 1
+Member Items
+1: 1 
+Total cost: 72
+Test case: 2
+Member Items
+1: 4 3 
+2: 4 
+3: 4 
+4: 4 6 3 
+Total cost: 554

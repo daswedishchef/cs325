@@ -1,0 +1,8 @@
+This was made using python and ran on flip3
+I got it working and then broke it really bad
+I had to spend a lot of time trying to fix it,
+I was having issues recontructing the array
+
+usage:
+python badsort.py <a>
+python badtime.py <size> <a>
